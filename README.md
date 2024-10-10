@@ -1,8 +1,8 @@
-Time Series forecasting with SARIMAX and XGBoost: Chennai House price prediction and forecasting
+#Time Series forecasting with SARIMAX and XGBoost: Chennai House price prediction and forecasting
 
-Project Overview:
+##Project Overview:
 
-1. Data Preprocessing
+##1. Data Preprocessing
 The raw dataset is first cleaned and preprocessed. This includes:
 
 Filling missing values with relevant imputation methods.
@@ -11,21 +11,21 @@ Dropping irrelevant columns and handling duplicates.
 Filling missing dates and dealing with extra records using custom logic.
 Removing outliers and handling the remaining missing data using forward fill.
 
-2. Feature Engineering
+##2. Feature Engineering
 Key features are extracted to enhance model performance:
 
 Encoding categorical features like SALE_COND, AREA, etc.
 Aggregating area-based rankings.
 Deriving additional features relevant to the time series and predictive models.
 
-3. Time Series Forecasting (SARIMAX)
+##3. Time Series Forecasting (SARIMAX)
 The SARIMAX (Seasonal ARIMA with eXogenous variables) model is used for time series forecasting. Key steps:
 
 Hyperparameter tuning for SARIMA (p, d, q, P, D, Q, S).
 Residual analysis and error metrics for evaluating the model's performance.
 Forecasting future trends based on historical data.
 
-4. XGBoost Model for Prediction
+##4. XGBoost Model for Prediction
 The XGBoost model is trained on temporal and non-temporal features:
 
 Cross-validation using TimeSeriesSplit.
@@ -56,5 +56,3 @@ Future Enhancements
 Web Application: A user interface (UI) can be built for real-time forecasting and predictions using the trained models.
 
 Azure Integration: Deployment of the models using Azure services to enable scalable and accessible forecasting.
-
-<meta name="google-site-verification" content="sUrPFZwBbkptQfWmzCniDt_pZduLICBlL28o3fFXFOw" />
