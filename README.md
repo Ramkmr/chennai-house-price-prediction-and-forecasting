@@ -56,3 +56,5 @@ Future Enhancements
 Web Application: A user interface (UI) can be built for real-time forecasting and predictions using the trained models.
 
 Azure Integration: Deployment of the models using Azure services to enable scalable and accessible forecasting.
+
+<meta name="google-site-verification" content="sUrPFZwBbkptQfWmzCniDt_pZduLICBlL28o3fFXFOw" />
