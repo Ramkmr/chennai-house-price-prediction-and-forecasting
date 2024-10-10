@@ -52,4 +52,5 @@ Finish with 4_xgboost_model_training.ipynb to train and evaluate the XGBoost mod
 Future Enhancements
 
 Web Application: A user interface (UI) can be built for real-time forecasting and predictions using the trained models.
+
 Azure Integration: Deployment of the models using Azure services to enable scalable and accessible forecasting.
